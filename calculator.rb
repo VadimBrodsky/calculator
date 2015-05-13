@@ -28,7 +28,7 @@ puts "Follow the instructions to calculate, or enter q to quit."
 puts ""
 
 
-while true do
+loop do
   print "Enter 1st Number: "
   num_1 = gets.chomp
   break if quit?(num_1)
